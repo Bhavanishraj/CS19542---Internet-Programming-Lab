@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height */
+    background-image: url('images/simple-background-for-presentation-1.jpg'); /* Path to your image */
+    background-size: cover; /* Cover the entire background */
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.signup-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Set a fixed width */
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%; /* Full width */
+}
+
+input:focus {
+    border-color: lightblue; /* Green border on focus */
+    outline: none; /* Remove default outline */
+}
+
+button {
+    background-color:lightblue; /* Green background */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: lightblue; /* Darker green on hover */
+}
+
+.message {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.message a {
+    color: lightblue; /* Green link */
+    text-decoration: none;
+}
+
+.message a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
